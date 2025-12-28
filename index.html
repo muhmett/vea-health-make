@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Dent - Premier Dental Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-tooth"></i>
+                    <span>Smile<span class="logo-highlight">Dent</span></span>
+                </a>
+                
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="pages/services.html" class="nav-link">Services</a>
+                    <a href="pages/about.html" class="nav-link">About</a>
+                    <a href="pages/contact.html" class="nav-link">Contact</a>
+                </div>
+                
+                <div class="nav-cta">
+                    <a href="tel:+905314329215" class="phone-btn">
+                        <i class="fas fa-phone"></i>
+                        <span>+90 (531) 432 92 15</span>
+                    </a>
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <a href="index.html" class="mobile-nav-link active">Home</a>
+            <a href="pages/services.html" class="mobile-nav-link">Services</a>
+            <a href="pages/about.html" class="mobile-nav-link">About</a>
+            <a href="pages/contact.html" class="mobile-nav-link">Contact</a>
+            <a href="tel:+905314329215" class="mobile-phone-btn">
+                <i class="fas fa-phone"></i>
+                +90 (531) 432 92 15
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Your Comfortable Pathway to 
+                        <span class="text-highlight">Bright & Healthy</span> 
+                        Smiles
+                    </h1>
+                    <p class="hero-description">
+                        Experience premium dental care with cutting-edge technology and compassionate 
+                        professionals dedicated to your oral health and beautiful smile.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary">
+                            Book Appointment
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="pages/services.html" class="btn btn-secondary">
+                            Our Services
+                        </a>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">15K+</div>
+                            <div class="stat-label">Happy Patients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">25+</div>
+                            <div class="stat-label">Expert Dentists</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Success Rate</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                             alt="Modern Dental Clinic" 
+                             class="main-image">
+                        <div class="image-badge">
+                            <div class="badge-content">
+                                <i class="fas fa-award"></i>
+                                <span>Best Dental Clinic 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comprehensive Dental <span class="text-highlight">Services</span></h2>
+                <p class="section-description">
+                    We offer a wide range of dental treatments using state-of-the-art technology 
+                    and pain-free techniques.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                    <h3 class="service-title">Teeth Whitening</h3>
+                    <p class="service-description">
+                        Professional teeth whitening for a brighter, more confident smile in just one visit.
+                    </p>
+                    <div class="service-price">$150</div>
+                    <a href="pages/services.html#whitening" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3 class="service-title">Tooth Extraction</h3>
+                    <p class="service-description">
+                        Painless tooth extraction with modern anesthesia techniques and quick recovery.
+                    </p>
+                    <div class="service-price">$180</div>
+                    <a href="pages/services.html#extraction" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-implant"></i>
+                    </div>
+                    <h3 class="service-title">Dental Implants</h3>
+                    <p class="service-description">
+                        Permanent solution for missing teeth with natural-looking and durable results.
+                    </p>
+                    <div class="service-price">$220</div>
+                    <a href="pages/services.html#implants" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-teeth"></i>
+                    </div>
+                    <h3 class="service-title">Dental Braces</h3>
+                    <p class="service-description">
+                        Modern orthodontic solutions for perfectly aligned teeth and improved oral health.
+                    </p>
+                    <div class="service-price">$350</div>
+                    <a href="pages/services.html#braces" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-teeth-open"></i>
+                    </div>
+                    <h3 class="service-title">Root Canal</h3>
+                    <p class="service-description">
+                        Save your natural teeth with our advanced root canal treatment procedures.
+                    </p>
+                    <div class="service-price">$280</div>
+                    <a href="pages/services.html#rootcanal" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3 class="service-title">Cosmetic Dentistry</h3>
+                    <p class="service-description">
+                        Transform your smile with veneers, bonding, and other cosmetic procedures.
+                    </p>
+                    <div class="service-price">$400</div>
+                    <a href="pages/services.html#cosmetic" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="pages/services.html" class="btn btn-outline">
+                    View All Services
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose <span class="text-highlight">Smile Dent</span></h2>
+                <p class="section-description">
+                    We combine expertise, technology, and compassion to deliver exceptional dental care.
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Expert Dentists</h3>
+                    <p>Board-certified dentists with 10+ years of experience in various specialties.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Advanced Technology</h3>
+                    <p>Digital X-rays, laser dentistry, and 3D imaging for precise treatments.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Pain-Free Procedures</h3>
+                    <p>Minimally invasive techniques with local anesthesia for comfort.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency dental services with quick appointment scheduling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Patient <span class="text-highlight">Testimonials</span></h2>
+                <p class="section-description">
+                    Hear from our satisfied patients about their experiences at Smile Dent.
+                </p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "I was terrified of dentists, but the team at Smile Dent made me feel completely 
+                            at ease. My root canal was painless, and the results are amazing!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Teeth Whitening Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The dental implant procedure was seamless. I now have a perfect smile 
+                            and can eat anything without worry. Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Dental Implant Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "My children love coming here! The pediatric dentists are amazing with kids. 
+                            Our whole family trusts Smile Dent with our dental health."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p>Family Dentistry Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="appointment">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready for Your Perfect Smile?</h2>
+                <p class="cta-description">
+                    Book your appointment today and take the first step towards optimal dental health.
+                </p>
+                
+                <div class="cta-buttons">
+                    <a href="tel:+905314329215" class="btn btn-primary btn-large">
+                        <i class="fas fa-phone"></i>
+                        Call Now: +90 (531) 432 92 15
+                    </a>
+                    <a href="pages/contact.html" class="btn btn-secondary btn-large">
+                        <i class="fas fa-calendar"></i>
+                        Book Online
+                    </a>
+                </div>
+                
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Same-day Emergency Appointments</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Free Consultation for New Patients</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Flexible Payment Plans Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-tooth"></i>
+                        <span>Smile<span class="logo-highlight">Dent</span></span>
+                    </a>
+                    <p class="footer-description">
+                        Providing exceptional dental care with compassion and cutting-edge technology 
+                        since 2010.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/services.html">Services</a></li>
+                        <li><a href="pages/about.html">About Us</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                        <li><a href="#appointment">Book Appointment</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/services.html#whitening">Teeth Whitening</a></li>
+                        <li><a href="pages/services.html#implants">Dental Implants</a></li>
+                        <li><a href="pages/services.html#braces">Dental Braces</a></li>
+                        <li><a href="pages/services.html#rootcanal">Root Canal</a></li>
+                        <li><a href="pages/services.html#cosmetic">Cosmetic Dentistry</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Dental Street, Health City, HC 12345</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+90 (531) 432 92 15</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@smiledent.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Fri: 8am-8pm, Sat: 9am-4pm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Smile Dent Dental Clinic. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/905314329215" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
